@@ -4,7 +4,7 @@ Heartbeat
 A web responsive dot with heartbeat animation (using css3 animation )
 
 ----------------------------------
-!(demo)[http://ww2.sinaimg.cn/bmiddle/64c45e19gw1eiihlmqcr8g208c06yk0m.gif]
+![demo](http://ww2.sinaimg.cn/bmiddle/64c45e19gw1eiihlmqcr8g208c06yk0m.gif)
 
 ## HTML
 ````html
