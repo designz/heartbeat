@@ -5,8 +5,10 @@
         <meta name="viewport" content="width=device-width, initail-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <title>Index</title>
         <link rel="stylesheet" href="css/base/normalize.css">
-        <link rel="stylesheet" href="css/app/heartbeat.css">
-        <script data-main="js/heartbeat" src="js/lib/require.js"></script>
+        <link rel="stylesheet" href="heartbeat.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="heartbeat.js"></script>
+
     </head>
     <body>
         <h1>心跳组件</h1>
@@ -19,4 +21,7 @@
             </div>
         </section>    
     </body>
+    <script>
+           $('#container').Heartbeat();
+    </script>
 </html>
