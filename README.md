@@ -1,5 +1,7 @@
-Heartbeat
+jQuery 插件版本 Heartbeat
 =========
+
+### a version for jQuery user to use Heartbeat to point place at Map.
 
 A web responsive dot with heartbeat animation (using css3 animation )
 
@@ -16,21 +18,14 @@ A web responsive dot with heartbeat animation (using css3 animation )
           <span data-role="big" class="heart"></span>
       </div>
 </section>  
+
 ````
 
 ## JS
+use ````<script>````to import jQuery and Hearbeat.
+Then:
 ````javascript
-require(["./config",'app/heartbeat'], function(config,yeah) {
-	
-	 var yeah = new yeah('#container',{mapWidth: 710});
-	 // You also can give small/big/center circle's size
-	 // new yeah('#container',{bigCircleWidth: 32,
-	 //	smallCircleWidth: 20,
-	 // centerCircleWidth: 7,
- 	 //	mapWidth: 710});
-	 yeah.init();
-
-});
+$('#container').Hearbeat();
 ````
 ## CSS
 If you want to custom it,you can modify the css file;
