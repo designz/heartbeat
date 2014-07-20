@@ -1,4 +1,6 @@
-define(['jquery'],function($) {
+;(function($) {
+
+
 	'use strict';
 
 	var _opts = {
@@ -9,12 +11,12 @@ define(['jquery'],function($) {
 		mapWidth: 710
 	}
 
-	function Heartbeat(element, opts) {
+	$.fn.Heartbeat = function(element, opts) {
 		this.element = $(element);
 		this.options = $.extend(true,{},_opts,opts);
-	}
+	};
 
-	Heartbeat.prototype = {
+	$.fn.Heartbeat.prototype = {
 
 		init: function() {
 			var self = this;
@@ -90,7 +92,5 @@ define(['jquery'],function($) {
 
 	
 	
-	return Heartbeat;
 
-
-});
+})(jQuery);
