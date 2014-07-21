@@ -1,3 +1,7 @@
+//author: Spencer Xie 
+//email: spencerxie2012@gmail.com
+//@spenceryi
+
 define(['jquery'],function($) {
 	'use strict';
 
